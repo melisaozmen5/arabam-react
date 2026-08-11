@@ -1,16 +1,53 @@
-# React + Vite
+# Vehicle Marketplace Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based vehicle marketplace application developed as part of my frontend software development internship.
 
-Currently, two official plugins are available:
+The project focuses on building a modern vehicle listing experience with reusable React components, filtering, vehicle details, favorites, and comparison functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Vehicle listing page
+* Search and filtering
+* Vehicle detail page
+* Add/remove favorites
+* Vehicle comparison
+* LocalStorage integration
+* Responsive user interface
+* Reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* Vite
+* HTML5
+* CSS3
+* Axios
+* React Router
+* LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+
+* Listing
+* Vehicle Detail
+* Favorites
+* Compare
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## About
+
+This project was developed during my frontend software development internship to practice real-world React application architecture, component-based development, state management, routing, and user interaction.
+
